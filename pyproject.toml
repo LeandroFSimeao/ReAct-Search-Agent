@@ -1,13 +1,14 @@
 [project]
 name = "langchain-course"
 version = "0.1.0"
-description = "Agente ReAct (Reasoning and Acting) usando LangChain com busca web integrada via TavilySearch e suporte a modelos Ollama"
+description = "Agente ReAct (Reasoning and Acting) usando LangChain com busca web integrada via TavilySearch e modelo Gemini"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "black>=25.9.0",
     "isort>=6.1.0",
     "langchain>=0.3.27",
+    "langchain-google-genai>=2.0.7",
     "langchain-ollama>=0.3.10",
     "langchain-openai>=0.3.35",
     "langchain-tavily>=0.2.12",
